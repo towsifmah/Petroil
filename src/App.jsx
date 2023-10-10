@@ -1,17 +1,17 @@
 
-import Map from "../Map"
-import Branding from "./Componand/Branding"
-import Card from "./Componand/Card"
-import Company from "./Componand/Company"
-import Mamber from "./Componand/Mamber"
-import Banner from "./Componand/Navbar/Banner"
-import Footer from "./Componand/Navbar/Footer"
-import Header from "./Componand/Navbar/Header"
-import Navbar from "./Componand/Navbar/Navbar"
-import Ourservice from "./Componand/Ourservice"
-import Services from "./Componand/Services"
-import Slide from "./Componand/Slide"
-import Supply from "./Componand/Supply"
+import Branding from "./Componend/Branding"
+import Card from "./Componend/Card"
+import Company from "./Componend/Company"
+import Mamber from "./Componend/Mamber"
+import Maps from "./Componend/Maps"
+import Banner from "./Componend/Navbar/Banner"
+import Footer from "./Componend/Navbar/Footer"
+import Header from "./Componend/Navbar/Header"
+import Navbar from "./Componend/Navbar/Navbar"
+import Ourservice from "./Componend/Ourservice"
+import Services from "./Componend/Services"
+import Slide from "./Componend/Slide"
+import Supply from "./Componend/Supply"
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
    <Company></Company>
    <Branding></Branding>
    <Card></Card>
-   <Map></Map>
+   <Maps></Maps>
    <Mamber></Mamber>
    <Footer></Footer>
     </>

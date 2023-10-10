@@ -2,7 +2,7 @@ import { useState } from "react";
 import { GoSidebarExpand } from "react-icons/go";
 import { IoMdClose } from "react-icons/io";
 
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Logo.svg";
 
 const Navbar = () => {
   const [show, setshow] = useState(false);

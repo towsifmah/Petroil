@@ -3,6 +3,8 @@ import { BiLogoTwitter } from "react-icons/bi";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { BiLogoInstagram } from "react-icons/bi";
 
+import footerlogo from '../../assets/footerlogo.svg'
+
 import message from "../../assets/message.svg";
 import phone from "../../assets/phone.svg";
 import location from "../../assets/location.svg";
@@ -19,7 +21,7 @@ const Footer = () => {
             <div>
               <img
                 className="mb-[33px]"
-                src="src/assets/footerlogo.svg"
+                src={footerlogo}
                 alt="logo"
               />
               <div className="flex items-center gap-[5px]">
